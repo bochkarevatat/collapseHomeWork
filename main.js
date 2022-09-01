@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("app started");(new class{constructor(){this.button=document.querySelector(".btn"),this.openTexr=document.querySelector(".open-text")}events(){this.button.addEventListener("click",(()=>{const e=this.openTexr.scrollHeight;this.openTexr.style.height===`${e}px`?this.openTexr.style=null:this.openTexr.style.height=`${e}px`}))}}).events()})();
