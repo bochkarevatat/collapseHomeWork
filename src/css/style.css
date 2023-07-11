@@ -10,14 +10,43 @@
   margin-right: auto;
   flex-direction: column;
   width: 800px;
-  height: 280px;
+  height: 380px;
   margin-top: 20px;
-  border: 1px dotted black;
+  border: 1px dashed rgb(118, 114, 114);
+  overflow: hidden;
 }
 
+.border{
+  border: 2px solid rgb(237, 230, 230);
+  position: relative;
+  width: 790px;
+  position: relative;
+  
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.fon{
+  position: relative;
+  margin-top: -1px;
+  background-color: rgb(237, 230, 230);
+  height: 270px;
+  width: 792px;
+  margin: -1px auto;
+  padding-bottom: 30px;
+}
+.btnCopy{
+  position: fixed;
+  color: gray;
+  border: 0px;
+  right: 25%;
+  margin-top: 15px;
+  background-color: rgb(237, 230, 230);
+}
 .show-text {
+  position: relative;
   max-height: 500px;
-  transition: max-height 3s ease 0s;
+  transition: max-height 4s ease 1s;
+  
 }
 
 .hidden-text {
@@ -28,31 +57,36 @@
 .btn {
   -webkit-appearance: none;
   -moz-appearance: none;
-  width: 150px;
-  height: 25px;
-  background-color: #1a26d6;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  width: 100px;
+  height: 50px;
+  background-color: #017bff;
   border: none;
   border-radius: 5px;
   color: #ffffff;
 }
 
 .btn:hover {
-  background-color: #0b23c2ae;
+  background-color: #3694f9;
 }
 
 .btn:focus {
-  border: 2px solid #a399bc;
+  border: 4px solid #9ec4dc;
 }
 
 .open-text {
   height: 0px;
   margin: 10px;
   overflow: hidden;
-  transition: height 0.5s;
+  transition: height 2s;
 }
 
 p {
+  position: relative;
   border: 1px solid gray;
   border-radius: 5px;
   padding: 3px;
+  top: 40px;
 }
