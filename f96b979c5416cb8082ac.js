@@ -1,0 +1,1 @@
+import Collapse from"./Collapse.js";const container=document.querySelector("#container"),collapse=new Collapse(container);collapse.bindToDOM();
