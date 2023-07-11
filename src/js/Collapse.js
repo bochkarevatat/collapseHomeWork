@@ -1,8 +1,6 @@
 export default class Collapse {
   constructor(parentEl) {
     this.parentEl = parentEl;
-    // this.button = document.querySelector('.btn');
-    // this.openTexr = document.querySelector('.open-text');
     this.events = this.events.bind(this);
   }
 

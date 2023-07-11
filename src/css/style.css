@@ -55,8 +55,8 @@
 }
 
 .btn {
-  -webkit-appearance: none;
-  -moz-appearance: none;
+  /* -webkit-appearance: none;
+  -moz-appearance: none; */
   position: relative;
   top: 30px;
   left: 30px;

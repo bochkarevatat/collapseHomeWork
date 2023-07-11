@@ -1,5 +1,5 @@
 // TODO: write code here
-import Collapse from './getOpenText.js';
+import Collapse from './Collapse.js';
 
 const container = document.querySelector('#container');
 // console.log(container);
